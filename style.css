@@ -1,0 +1,144 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+}
+
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 38px;
+    margin-right: 130px; 
+}
+
+#nav-prt1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#nav-prt1 h4{
+    margin-right: 60px;
+    font-size: 17px;
+    font-weight: 600; 
+}
+
+#nav-prt2 i{
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: 600; 
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+}
+
+#left{
+    width: 35%;
+    height: 100%;
+    padding: 70px 120px;
+}
+
+#left h5{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 19px;
+}
+
+#left h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#left p{
+    font-size: 14px;
+    width: 83.8%;
+    margin-bottom: 23px;
+}
+
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 9.3px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+
+#right{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    padding: 75px;
+    white-space: nowrap; 
+    overflow-x: auto;
+}
+
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 450px;
+    width: 340px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.elem img{
+    height: 70%;
+    width: 100%;
+    top: 7%;
+    object-fit: cover;
+    position: absolute
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+    padding: 16px 30px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10.9%;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 16px 30px;
+    border-radius: 6px;
+}
